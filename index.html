@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>UI Review</title>
+  </head>
+
+  <body>
+    <div id="panel" class="panel-container">
+        <h1>Let's play this game</h1>
+        <button class="btn" id="start" >Start Game</button>
+      <div class="inner-container hidden">
+          <div class="first-input">
+              <label class="first-label" for="parameter">Set a range to guess from</label>
+              <input type="number" class="input" name="parameter" id="parameter" placeholder="Your range">
+            </div>
+            <div class="second-input hidden">
+              <label class="second-label"  for="guess">Guess the number</label>
+              <input type="number"  class="input" name="guess" id="guess" placeholder="Your guess">
+            </div>
+             <button class="btn" id="btn">Enter</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
